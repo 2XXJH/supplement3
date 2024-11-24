@@ -30,3 +30,7 @@ def test_should_return_fahrenheit_to_celsius():
     fahrenheit = 77
     celsius = fahrenheit_to_celsius(fahrenheit)
     assert round(celsius, 2) == 25
+
+def test_should_return_is_even():
+    number = 42
+    assert is_even(number) is True
