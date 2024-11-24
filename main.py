@@ -1,6 +1,6 @@
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9 / 5) + 32
- """
+    """
     Convert a temperature from Celsius to Fahrenheit.
 
     Args:
@@ -9,7 +9,8 @@ def celsius_to_fahrenheit(celsius):
     Returns:
         float: The temperature in Fahrenheit.
     """
-
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit - 32) * 5 / 9
 
 def test_should_return_celsius_to_fahrenheit():
     celsius = 25
