@@ -16,4 +16,7 @@ def test_should_return_celsius_to_fahrenheit():
     fahrenheit = celsius_to_fahrenheit(celsius)
     assert fahrenheit == 77 
 
-
+def test_should_return_fahrenheit_to_celsius():
+    fahrenheit = 77
+    celsius = fahrenheit_to_celsius(fahrenheit)
+    assert round(celsius, 2) == 25
