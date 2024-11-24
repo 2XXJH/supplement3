@@ -20,7 +20,8 @@ def fahrenheit_to_celsius(fahrenheit):
         float: The temperature in Celsius.
     """
     return (fahrenheit - 32) * 5 / 9
-    
+def is_even(number):
+    return number % 2 == 0    
 def test_should_return_celsius_to_fahrenheit():
     celsius = 25
     fahrenheit = celsius_to_fahrenheit(celsius)
